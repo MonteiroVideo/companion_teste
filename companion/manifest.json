@@ -1,0 +1,26 @@
+{
+	"id": "PPT-VIDEO",
+	"name": "PPT-VIDEO",
+	"shortname": "PPT-VIDEO",
+	"description": "",
+	"version": "0.0.1",
+	"license": "MIT",
+	"repository": "git+https://github.com/MonteiroVideo/ppt-video-osc.git",
+	"bugs": "https://github.com/MonteiroVideo/ppt-video-osc/issues",
+	"maintainers": [
+		{
+			"name": "Bruno Monteiro",
+			"email": "monteiro.audiovisual@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Monteiro",
+	"products": [ "PPT-VIDEO-OSC" ],
+	"keywords": []
+}
