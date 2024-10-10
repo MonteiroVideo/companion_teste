@@ -15,8 +15,7 @@ export const ConfigFields = [
 					<div>
 						<strong>Please read and understand the following before using this module</strong>
 						<br>
-						This software aims to use the companion feature to use more than one computer on the network and be able to control the opening of video and ppt simultaneously.<p>
-            
+						This software is for use as a stopwatch, making it easier to manipulate times through the companion.
 					</div>
 				</div>
 			`,
@@ -25,6 +24,7 @@ export const ConfigFields = [
 		type: 'textinput',
 		id: 'host',
 		label: 'Target Host name or IP',
+		default: '127.0.0.1',
 		width: 8,
 		regex: REGEX_IP_OR_HOST,
 	},
@@ -32,11 +32,11 @@ export const ConfigFields = [
 		type: 'textinput',
 		id: 'port',
 		label: 'Target Port',
+		default: '7600',
 		width: 4,
-		default: 7000,
 		regex: Regex.PORT,
 	},
-	
-	
-	
+
+
+
 ]
